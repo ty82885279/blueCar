@@ -172,9 +172,9 @@
 				}
 			}, false);
 			
-			this.worker.addEventListener("error", function (e) {
-				console.error(e);
-			}, false);
+			// this.worker.addEventListener("error", function (e) {
+			// 	console.error(e);
+			// }, false);
 			
 			this.worker.postMessage(null);
 		}
